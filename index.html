@@ -7,5 +7,104 @@
     <link rel="stylesheet" href="style.css" />
     <title>Form RDR2</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1 id="title" class="title">RDR2 survey form</h1>
+      <p id="description" class="description">
+        Thank you for taking the time to answer the survey
+      </p>
+    </header>
+    <form id="survey-form" class="survey-form">
+      <div class="form-inputs">
+        <label>Name</label>
+        <input
+          id="name"
+          class="name"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+
+      <div class="form-inputs">
+        <label id="email-label">Email</label>
+        <input
+          id="email"
+          class="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+      <div class="form-inputs">
+        <label id="name-label">Age</label>
+        <input
+          id="age"
+          class="age"
+          type="number"
+          name="age"
+          min="18"
+          max="99"
+          placeholder="Enter your age (optional)"
+        />
+      </div>
+      <div class="form-inputs">
+        <p>How often do you play RDR2?</p>
+        <select id="dropdown" class="dropdown">
+          <option>Every day</option>
+          <option>Once per week</option>
+          <option>Every weekend</option>
+          <option>few hours per month</option>
+        </select>
+      </div>
+      <div class="form-inputs">
+        <p>Would you recommend RDR2 to a friend?</p>
+        <label
+          ><input name="recommend" value="yes" type="radio" checked />Yes</label
+        >
+        <label><input name="recommend" value="no" type="radio" />No</label>
+        <label
+          ><input name="recommend" value="maybe" type="radio" />Maybe</label
+        >
+      </div>
+      <div class="form-inputs">
+        <p>What would you improve</p>
+        <label
+          ><input
+            name="recommend"
+            value="story"
+            type="checkbox"
+            checked
+          />Story</label
+        >
+        <label
+          ><input
+            name="recommend"
+            value="ending"
+            type="checkbox"
+          />Ending</label
+        >
+        <label
+          ><input name="recommend" value="places" type="checkbox" />Places in
+          game</label
+        >
+        <label
+          ><input
+            name="recommend"
+            value="characters"
+            type="checkbox"
+          />Characters</label
+        >
+      </div>
+      <div class="form-inputs">
+        <p>Have more suggestions?</p>
+        <textarea></textarea>
+      </div>
+      <div class="form-inputs">
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
 </html>
