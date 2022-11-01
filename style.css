@@ -20,6 +20,8 @@ h1 {
 label {
   font-size: 1.2rem;
   color: #ffffff;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
 }
 header {
   display: flex;
@@ -47,4 +49,18 @@ header h1 {
   justify-content: left;
   align-items: left;
   flex-direction: column;
+}
+.form-inputs input {
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+}
+.form-inputs select {
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.4rem;
 }
