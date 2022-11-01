@@ -64,3 +64,11 @@ header h1 {
   cursor: pointer;
   border-radius: 0.4rem;
 }
+
+.checkbox input {
+  margin-right: 1.2rem;
+  cursor: pointer;
+}
+.checkbox span:hover {
+  color: rgb(66, 192, 66);
+}
