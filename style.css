@@ -37,18 +37,19 @@ header h1 {
   margin-bottom: 1rem;
 }
 
-.survey-form {
+body .survey-form {
   border: 1px solid rgb(66, 192, 66);
   border-radius: 1.2rem;
-  margin: 1rem;
-  padding: 3rem;
+  max-width: 100%;
   background-color: black;
+  margin-bottom: 1rem;
 }
 .form-inputs {
   display: flex;
   justify-content: left;
   align-items: left;
   flex-direction: column;
+  padding: 1rem;
 }
 .form-inputs input {
   font-size: 1.2rem;
@@ -69,6 +70,31 @@ header h1 {
   margin-right: 1.2rem;
   cursor: pointer;
 }
-.checkbox span:hover {
-  color: rgb(66, 192, 66);
+
+textarea {
+  border: none;
+  border-radius: 0.4rem;
+  outline: none;
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+}
+#radio-input {
+  margin-right: 1.2rem;
+  cursor: pointer;
+}
+
+.submit-btn {
+  font-size: 1.2rem;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  background-color: rgb(66, 192, 66);
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
 }
